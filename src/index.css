@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.task-adder{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.task-adder>input,.task-adder>textarea{
+  margin: 20px;
+  padding: 20px;
+  height: 60px;
+  width: 600px;
+  transition: 1s;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+}
+.task-adder>input:focus,.task-adder>textarea:focus{
+  background-color: rgb(216, 216, 216);
+  transition: 1s;
+}
+.task-adder>textarea{
+  height: 120px;
+}
