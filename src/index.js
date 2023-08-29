@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Nav from './Components/Nav';
 import Form from './Components/Form';
+import Todo from './Components/Todo-display';
 
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <Nav/>
     <Form/>
+    <Todo/>
   </React.StrictMode>
 );
 
