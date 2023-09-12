@@ -62,3 +62,6 @@ code {
 .titles{
   font-size: 1.7em;
 }
+.cards-todo>div>button{
+  margin: 0 10px 0 10px;
+}

@@ -21,8 +21,8 @@ function Todo() {
                 <h2 className='titles'>{item.Title}</h2>
                 <p className='desc'>{item.Description}</p>
                 <div>
-
-                <button className='btn btn-outline-secondary'>Done</button>
+                <button className='btn btn-outline-primary'>Mark As Done</button>
+                <button className='btn btn-outline-danger'>Delete</button>
                 </div>
               </div>
             )

@@ -15,11 +15,11 @@ function Form() {
       headers: { "Content-Type": "application/json" },
     })
     result = await result.json()
-    console.log(result);
+    
   }
   
   return (
-    <div className="task-adder">
+    <form className="task-adder">
       <input
         type='text'
         placeholder='Title'
@@ -34,7 +34,7 @@ function Form() {
         onChange={(e)=> setDescription(e.target.value)}
         placeholder='Description'></textarea>
       <button className="btn btn-outline-dark ps-5 pe-5" onClick={addValues}>Add Task</button>
-    </div>
+    </form>
   );
 }
 
