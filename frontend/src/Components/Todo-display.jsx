@@ -28,7 +28,7 @@ function Todo() {
             )
           }
         </div>
-        <div className="todos" id='done'>done</div>
+        <div className="todos" id='done'></div>
     </div>
   )
 }
