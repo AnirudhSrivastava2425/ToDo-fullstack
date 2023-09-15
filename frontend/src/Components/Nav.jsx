@@ -26,13 +26,7 @@ function Nav() {
             id='navbarNav'>
             <ul className='navbar-nav'>
               <li className='nav-item'>
-                <a
-                  className='nav-link disabled'
-                  href="/"
-                  aria-disabled='true'>
-                    
-                  Enable Dark Mode🌙
-                </a>
+                
               </li>
             </ul>
           </div>

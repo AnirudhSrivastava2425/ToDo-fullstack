@@ -10,7 +10,8 @@ function Form() {
       method: "post",
       body: JSON.stringify({
         Title:title,
-        Description:description
+        Description:description,
+        Status:false
       }),
       headers: { "Content-Type": "application/json" },
     })
